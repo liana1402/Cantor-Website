@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@100&family=Raleway:wght@300&display=swap');
+                                                         /*    head    */
+                                                         /*    navbar    */
+.navbar-container{
+    justify-content: space-between;
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(90deg, #314529, #344e41);
+}
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+.navbar-menu-items{
+    display: none;
+    position: absolute;
+    padding: 1%;
+    background-color: #dad7cd;
+    z-index: 1;
+}
+.navbar-menu-items li{
+    list-style-type: none;
+}
+.navbar-menu-items a{
+    color: #344e41;
+    font-weight: 500;
+}
+.side-menu{
+    border: 1px solid #e0e0e0;
+}
+.side-menu button{
+    margin: 6px 2px;
+    background: none;
+    border: none;
+    color: #e0e0e0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.navbar-menu form{
+    display: flex;
+    margin: 0;
+}
+.search-button{
+    display: none;
+}
+.navbar-menu .search {
+    display: block;
+    width: 130px;
+    border: 1px solid #e0e0e0;
+    margin: auto;
+    padding: 9px 4px 9px 9px;
+    background-color: #344e41;
+    color: #dad7cd;
+}
+.results{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.results li{
+    margin: 16px 0;
+    font-size: 14px;
+}
+                                                              /*    logo    */
+.logo img{
+    width: 50px;
+    margin: 10px;
+}
+                                                          /*    separation bars    */
+.separation-bars{
+    display: inline-flex;
+    width: 100%;
+}
+.bar{
+    height: 10px;
+    margin: 0px;
+    display: inline;
+    width: 25%;
+}
+#bar-1{
+    background-color: #dad7cd;
+}
+#bar-2{
+    background-color: #a3b18a;
+}
+#bar-3{
+    background-color: #588157;
+}
+#bar-4{
+    background-color: #3a5a40;
+}
+                                                       /*    images    */
+.main-image{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image img{
+    width: 100%;
+    margin: auto;
+    opacity: 70%;
+}
+.image-cover span{
+    width: 100%;
+    height: 192.29;
+    transform: translateY(-192.29px);
+    position: absolute;
+    background: linear-gradient(0deg, #344e41, transparent);
+}
+.about-image, .facilities-image, .courses-image, .find-us-images{
+    width: 100%;
+    margin: 10% 0;
+}
+#people-2-image{
+    margin-bottom: 5%;
+}
+#PSL-image{
+    margin-top: 5%;
+}
+.side-images img{
+    display: none;
+}
+#cantor-building-12, #people-5-image, #banner-image2, #atrium2, #people-32, #building32{
+    display: none;
+}
+                                                           /*    main    */
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin: auto;
+    background-color: #fdfcf8;
+}
+body h1{
+    font-size: 21px;
+    font-weight: 610;
+    padding: 0 5% 0 1%;
+    width: fit-content;
+}
+body h2{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10%;
+}
+body p{
+    font-family: system-ui, 'Segoe UI', sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: black;
+}
+body li{
+    list-style-type: none;
+}
+.body-content{
+    margin: 3% 5% 9% 5%;
+}
+.section-of-p{
+    font-family: 'Fredericka the Great', serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+                                                           /*    page title    */
+.page-title{
+    display: none;
+}
+#page-title-mod{
+    display: none;
+}
+                                                        /* facilities */
+.facilities-list li{
+    list-style-type: square;
+    margin-bottom: 5%;
+}
+#PSL-image-title{
+    margin-bottom: 0;
+    font-family: 'Fredericka the Great', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+                                       /* map */
+#map-title{
+    margin-bottom: 0%;
+}
+#map{
+    display: block;
+    height: 300px;
+    width: 100%;
+    margin-top: 2%
+}
+                                       /* contact */
+.contact-items{
+    display: flex;
+    flex-direction: column;
+}
+.contact-items p{
+    margin-bottom: 0;
+}
+.cu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cu p{
+    font-size: 10px;
+    color: #dad7cd;
+    margin: 2% 0;
+}
+                                       /* info */
+.info-list{
+    padding-left: 5%;
+}
+.info-list li{
+    padding-bottom: 2%;
+    list-style-type: square;
+}
+.rules-list{
+    padding-left: 5%;
+}
+.rules-list li{
+    padding-bottom: 2%;
+    list-style-type: none;
+    text-indent: -20;
+}
+
+                                                       /*    courses    */
+.course-types{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    background-color: #dad7cd;
+}
+.course-types li{
+    display: inline-flex;
+    margin: auto;
+    padding: 15% 2%;
+}
+#vertical-line{
+    border-left: 3px solid #3a5a40;
+    height: auto;
+}
+.c1-1 a{
+    text-decoration: underline;
+}
+.detail-labels{
+    margin-right: 1%;
+}
+.detail-labels-list{
+    padding: 0 5%;
+    width: 180;
+}
+                                                       /*    under/post grad courses    */
+.course-details-container{
+    background-color: #dad7cd;
+    padding: 0 3% 2%;
+}
+.course-details-container h2{
+    padding-top: 3%;
+}
+                                                        /*    news    */
+.news{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+}
+.news-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #dad7cd75;
+}
+.news-content p{
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.news-content img{
+    opacity: 50%;
+}
+.news-title{
+    font-family: 'Fredericka the Great', serif;
+    font-weight: 600;
+    position: absolute;             
+    margin-top: 30%;
+    margin-left: 45%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 30px;
+    text-align: center;
+    /*https://www.bannerbear.com/blog/how-to-overlay-text-on-an-image-in-html-and-css/#:~:text=Overlaying%20Text%20on%20an%20Image%20in%20HTML%20and%20CSS,-HTML&text=In%20the%20body%20section%2C%20create,and%20add%20your%20text%20inside.&text=We%20know%20that%20in%20real,to%20contain%20an%20image%20only. */
+}
+.news-content .news-date{
+    font-size: 10px;
+}
+                                                                 /*    side panel    */
+.more-info-list li{
+    list-style-type: square;
+    margin-bottom: 5%;
+}
+.side-bar-container{
+    display: none;
+}
+                                                                    /*    footer    */
+#footer{
+    background-color: #344e41;
+    padding: 5%;
+}
+#footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 5;
+}
+#footer-contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer a{
+    color: #dad7cd;
+}
+#footer h2{
+    color: #dad7cd;
+    font-size: 15px;
+}

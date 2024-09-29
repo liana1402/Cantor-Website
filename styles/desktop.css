@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Poppins:wght@100&family=Raleway:wght@300&display=swap');
+                                       /*    head    */
+                                       /*    navbar    */
+.navbar{
+    height: 100px;
+}
+.navbar-menu li{
+    display: inline;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0 11px 0 13px;
+    border-left: solid #dad7cd 2px;
+}
+.navbar-menu .search {
+    width: 200px;
+}
+.navbar-menu-items li :hover{
+    color: #a3b18a;
+}
+#side-menu{
+    display: none;
+}
+.side-menu{
+    border: none;
+}
+.navbar-menu-items{
+    display: inline;
+    position: relative;
+    padding: 0;   
+    background-color: transparent;
+}
+.navbar-menu-items a{
+    color: #dad7cd;
+}
+                                       /*    logo    */
+.logo img{
+    height: 75px;
+    width: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+                                       /*    image    */
+.main-image-container{
+    display: flex;
+}
+.side-images{
+    flex-direction: column;
+    justify-content: center;
+}
+.side-images img{
+    display: block;
+    height: 240px;
+}
+#cantor-building-1, #people-2-image, #banner-image, #people-3, #atrium, #building3{
+    display: none;
+}
+#cantor-building-12, #banner-image2, #people-32, #atrium2, #building32{
+    display: block;
+}
+.banner-image img{
+    width: 100%;
+    height: 479;
+    margin: auto;
+    opacity: 70%;
+}
+#people-5-image{
+    display: block;
+    width: 650;
+    margin: 0 100 0 0;
+}
+#lecture-theatre{
+    width: 40%;
+    margin: 1%;
+}
+#PSL-image-title{
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+#PSL-image{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 0;
+}
+#map-image{
+    width: 600px;
+    padding-right: 5%;
+}
+
+                                       /*    main    */
+
+.body-content{
+    margin: 3% 8% 9% 8%;
+}
+body h1{
+    font-size: 25px;
+}
+body h2{
+    font-size: 20px;
+    margin-top: 5%;
+}
+                                                    /*    page title    */
+.page-title{
+    display: block;
+    font-family: 'Fredericka the Great', serif;
+    color: #22332a;
+    font-weight: 600;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    transform: translate(-40%, -50%);
+    z-index: 1;
+    animation: slide-in 1s ease-in-out;
+}
+@keyframes slide-in{
+    0%{
+        transform: translate(100%, -50%);
+        
+        opacity: 0;
+    }
+    100%{
+        transform: translate(-40%, -50%);
+        opacity: 1;
+    }
+}
+#page-title-mod{
+    display: block;
+    transform: translate(-100%, -50%);
+    animation: slide-in-mod 1s ease-in-out;
+}
+@keyframes slide-in-mod{
+    0%{
+        transform: translate(100%, -50%);
+        
+        opacity: 0;
+    }
+    100%{
+        transform: translate(-100%, -50%);
+        opacity: 1;
+    }
+}
+                                       /* about us */
+.about-us-section-1{
+    display: flex;
+}
+.about-us-section-2{
+    display: flex;
+    margin-top: 1%;
+    align-items: center;
+}
+.about-us-section-3{
+    margin-top: 5%;
+}
+.about-us-section-1 p{
+    padding: 0 60;
+}
+.about-us-section-1 #inside-image{
+    margin: 0;
+    width: 550;
+}
+.about-us-section-2 #people-2-image{
+    margin: 0;
+    width: 550;
+}
+.aus1-p{
+    display: flex;
+    flex-direction: column;
+}
+.aus2-1{
+    width: 35%;
+}
+                                       /* facilities */
+.facilities-list li {
+    margin-bottom: 2%;
+}
+.f2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#PSL-line-separator{
+    display: none;
+}
+#facilities-body-content{
+    margin: 3% 8% 0% 8%;
+}
+#facilities-list-pt2{
+    margin-top: 0;
+}
+                                       /* map */
+.m{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.m1{
+    margin-right: 5%;
+}
+.m2{
+    width: 500;
+}
+#map{
+    height: 400px;
+}
+                                       /* how to find us */
+#htfu-body-content{
+    margin: 3% 8% 2% 8%;
+}
+                                       /* info for business */
+.ifb-1, .ifb-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ifb-1 p{
+    padding-left: 4%;
+}
+.ifb-12{
+    margin: 0 5%;
+}
+.ifb-2{
+    flex-direction: row-reverse;
+}
+.ifb-2 p{
+    padding: 3%;
+    width: 90%;
+}
+                                       /* news and courses */
+.news-title{
+    margin-top: 70;
+    margin-left: 2%;
+    width: 300px;
+    transform: translate(0, 0);
+    font-size: 35px;
+}
+.news-content img{
+    width: 400px;
+}
+.news-content{
+    display: flex;
+    flex-direction: row;
+}
+.news-content p{
+    font-size: 20px;
+}
+.news-content .news-date{
+    font-size: 15px;
+} 
+
+.course-types{
+    font-size: 20px;
+}
+.course-types li{
+    padding: 6% 2%;
+}
+.course-types li :hover{
+    color: #344e41;
+}
+.courses-and-sidebar{
+    display: flex;
+    justify-content: space-around;
+}
+#courses-container{
+    width: 70%;
+}
+#c2-image{
+    width: 25%;
+    margin: 0 4%;
+}
+.courses-section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.c1-2{
+    margin: 1% 7% 1% 5%;
+}
+.c1-2 .section-of-p{
+    padding: 0 5%;
+}
+.c1-1 a:hover{
+    color: #a3b18a;
+}
+.courses-section-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 5%;
+}
+.courses-section-2 p{
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+}
+.courses-section-3{
+    display: flex;
+    flex-direction: row;
+}
+.c3-1{
+    padding: 0 5%;
+}
+.results{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.results li{
+    font-size: 17px;
+}
+.detail-labels-list{
+    width: 250;
+}
+                                                         /*    side panel    */
+.more-info{
+    display: none;
+}
+.more-info-list{
+    padding: 0 20;
+}
+.more-info-list li{
+    margin-bottom: 15;
+}
+#more-info-title{
+    margin-bottom: 0;
+}
+.more-info-list li :hover{
+    color: #344e41;
+}
+.side-bar-container{
+    display: block;
+    background-color: #dad7cd;
+    padding: 15px 30px;
+}
+
+                                                         /*    footer    */
+#footer{
+    background-color: #344e41;
+    padding: 1%;
+}
+#footer ul{
+    flex-direction: row;
+}
+#footer li{
+    padding: 0 60;
+}
+#footer li :hover{
+    color: #a3b18a;
+}
